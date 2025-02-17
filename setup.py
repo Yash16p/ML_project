@@ -21,6 +21,6 @@ setup(
   version='0.0.1',
   author='Yash',
   author_email='yashpandey1626@gmail.com',
-  packages=find_packages(),
+  packages=find_packages(),  # Automatically finds and includes all Python packages in your project
   install_requires=get_requirements('requirements.txt')
 )
